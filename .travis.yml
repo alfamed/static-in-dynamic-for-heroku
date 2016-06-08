@@ -33,7 +33,6 @@ env:
   global:
     secure: 26f01ce9-f060-47ec-b7f3-cb1a58438559
 before_deploy:
-    - cd build
     - ls -la
 deploy:
   provider: heroku
