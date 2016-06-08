@@ -9,7 +9,7 @@ node_js:
 before_script:
   - sudo apt-get install -y tree
 script:
-  - gulp
+  - gulp build
   - tree
 before_deploy:
     - ls
