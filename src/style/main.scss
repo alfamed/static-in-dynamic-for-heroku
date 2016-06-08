@@ -1,0 +1,21 @@
+$content-width: 700px;
+$contentColor: black;
+$h1Color: black;
+$pColor: darkred;
+
+h1 {
+  text-align: center;
+  color: $h1Color;
+}
+
+#content {
+  margin: 0 auto;
+  max-width: $content-width;
+  text-align: justify;
+  color: $contentColor;
+}
+
+p {
+  color: $pColor;
+  text-transform: uppercase;
+}

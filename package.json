@@ -1,11 +1,9 @@
 {
   "name": "static-in-dynamic-for-heroku",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.php",
+  "description": "![](https://travis-ci.org/alfamed/static-in-dynamic-for-heroku.svg?branch=master)",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +19,19 @@
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
-    "gulp-connect-php": "0.0.7"
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-connect-php": "0.0.7",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.6",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "main-bower-files": "^2.13.1",
+    "rimraf": "^2.5.2"
   }
 }
