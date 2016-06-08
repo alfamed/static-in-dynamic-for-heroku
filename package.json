@@ -1,0 +1,26 @@
+{
+  "name": "static-in-dynamic-for-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alfamed/static-in-dynamic-for-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfamed/static-in-dynamic-for-heroku/issues"
+  },
+  "homepage": "https://github.com/alfamed/static-in-dynamic-for-heroku#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-connect-php": "0.0.7"
+  }
+}
